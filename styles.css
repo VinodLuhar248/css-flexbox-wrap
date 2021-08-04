@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  width: 300px;
+  border: 4px red solid;
+}
+
+/* flex-wrap property - start*/
+.wrap {
+  flex-wrap: wrap !important;
+}
+.nowrap {
+  flex-wrap: nowrap !important;
+}
+.wrap-reverse {
+  flex-wrap: wrap-reverse !important;
+}
+/* flex-wrap property - end*/
+
+.flex-item {
+  background: navy;
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}

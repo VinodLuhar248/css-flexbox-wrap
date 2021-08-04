@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!--- flexbox-wrap - start-->
+    <h1>flexbox-wrap</h1>
+    <h2>wrap | nowrap | wrap-reverse</h2>
+    <select
+      name="flexWrap"
+      id="flexWrap"
+      onchange="setFlexboxWrapClass(this.value)"
+    >
+      <option disabled="disabled" value="select option"
+        >select any option</option
+      >
+      <option value="wrap">wrap</option>
+      <option value="nowrap">nowrap</option>
+      <option value="wrap-reverse">wrap-reverse</option>
+    </select>
+    <!--- flexbox-wrap - end-->
+    <br /><br />
+    <!-- design -->
+    <div class="container row" id="flexDirectionClass">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item">5</div>
+      <div class="flex-item">6</div>
+      <div class="flex-item">7</div>
+      <div class="flex-item">8</div>
+      <div class="flex-item">9</div>
+    </div>
+  </body>
+</html>
